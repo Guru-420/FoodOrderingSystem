@@ -19,6 +19,7 @@ public class Main {
 
         Restaurant r1 = new Restaurant("R1", 4.5, 5);
         r1.updateMenu(new MenuItem("Veg Biryani", 100));
+        r1.updateMenu(new MenuItem("Veg Cheese Sandwich", 110));
         r1.updateMenu(new MenuItem("Chicken Biryani", 150));
 
         Restaurant r2 = new Restaurant("R2", 4.0, 5);
